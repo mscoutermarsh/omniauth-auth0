@@ -76,6 +76,7 @@ module OmniAuth
         parse_query = Rack::Utils.parse_query(request.query_string)
         params['connection'] = parse_query['connection']
         params['prompt'] = parse_query['prompt']
+        params['signup'] = parse_query['signup']
         params
       end
 

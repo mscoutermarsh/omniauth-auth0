@@ -77,6 +77,7 @@ module OmniAuth
         params['connection'] = parse_query['connection']
         params['prompt'] = parse_query['prompt']
         params['signup'] = parse_query['signup']
+        params['screen_hint'] = parse_query['screen_hint']
         params
       end
 
